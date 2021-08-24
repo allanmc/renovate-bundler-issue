@@ -5,3 +5,7 @@ source "https://rubygems.org"
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
 gem 'dummy-git-dependency', '1.0.0'
+
+source "https://rubygems.pkg.github.com/mercell" do
+  gem "sd-testutils", "0.1.9"
+end
