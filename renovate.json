@@ -1,8 +1,8 @@
 {
 	"extends": [
-		"config:base"
+		"config:base",
+		":pinDependencies"
 	],
-	"rangeStrategy": "auto",
 	"hostRules": [
 		{
 			"matchHost": "https://rubygems.pkg.github.com/mercell",
