@@ -2,7 +2,7 @@
 	"extends": [
 		"config:base"
 	],
-	"rangeStrategy": "replace",
+	"rangeStrategy": "auto",
 	"hostRules": [
 		{
 			"matchHost": "https://rubygems.pkg.github.com/mercell",
